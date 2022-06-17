@@ -1,0 +1,32 @@
+{
+  "name": "@uc-engg/armor",
+  "version": "1.0.0",
+  "description": "Library for handling external service calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive"
+  },
+  "dependencies": {
+    "lodash": "^3.10.0",
+    "@uc-engg/logging-repo": "^1.0.0",
+    "bluebird": "^2.9.13",
+    "jsonschema": "^1.2.0",
+    "hystrixjs": "^0.2.0",
+    "rxjs": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-things": "^0.2.0",
+    "sinon": "^3.2.1",
+    "proxyquire": "^1.8.0",
+    "express": "^4.16.3"
+  },
+  "keywords": [
+    "circuit-breaker",
+    "hystrix"
+  ],
+  "author": "Urbanclap Technologies India pvt. ltd.",
+  "license": "MIT"
+}
